@@ -119,3 +119,32 @@ a {
     margin-left: 20px;
 }
 /* Моя секція */
+.making-container {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.my-favorite-pizza {
+    background-color: rgb(255, 207, 117);
+}
+.making-titel {
+margin-left: 150px;
+}
+.dough-textmfp {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.dough-listmfp {
+    margin-top: 20px;
+}
+.dough-fmfp {
+background-color: rgb(255, 179, 0);
+}
+.dough-titlemfp {
+    margin-top: 0px;
+}
+.filling-wrapmfp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
