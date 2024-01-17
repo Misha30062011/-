@@ -126,6 +126,7 @@ a {
 }
 .my-favorite-pizza {
     background-color: rgb(255, 207, 117);
+    padding-bottom: 50px;
 }
 .making-titel {
 margin-left: 150px;
@@ -141,10 +142,17 @@ margin-left: 150px;
 background-color: rgb(255, 179, 0);
 }
 .dough-titlemfp {
+margin-bottomw: 50px;
+}
+.dough-titlemfp {
     margin-top: 0px;
 }
-.filling-wrapmfp {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.filling-titelmfp {
+    padding-bottom: 30px;
+}
+.filling-listmfp {
+    margin-bottom: 30px;
+}
+.filling-imgmfp {
+    margin-bottom: 30px;
 }
