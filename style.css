@@ -61,11 +61,10 @@ a {
    margin-bottom: 40px;
    margin-top: 40px;
    padding-top: 30px;
-   text-align: center;
-   text-decoration: underline;
 }
 .hero-text {
     font-size: 22px;
+    padding: 20px;
 }
 /* Інгрідієнти для тіста */
 .dough {
@@ -87,6 +86,8 @@ a {
 }
 .dough-img {
     width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 /* Інгрідієнти для начинки */
 .filling {
@@ -100,7 +101,7 @@ a {
     list-style: disc;
     padding-bottom: 20px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 .filling-container {
     display: flex;
@@ -132,30 +133,53 @@ a {
     margin-left: 20px;
 }
 /* Моя секція */
-.making-container {
-    display: flex;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    align-items: center;
+.my-favorite-pizza {
+    background-color: rgb(255, 207, 117);
+    padding-bottom: 50px;
+}
+.hero-titlemfp {
+   font-size: 48px;
+   color: rgb(113, 27, 12);
+   text-align: center;
+   font-weight: 700;
+   margin-bottom: 40px;
+   margin-top: 40px;
+   padding-top: 30px;
+   text-decoration: underline;
 }
 .mfp_img {
     margin: 0 auto;
     display: block;
     border-radius: 10px ;
 }
-.my-favorite-pizza {
-    background-color: rgb(255, 207, 117);
-    padding-bottom: 50px;
+.hero-textmfp {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.making{
+    background-color: rgb(255, 179, 0);
+}
+.making-container {
+    margin-top: 50px;
+    align-items: center;
+}
+.margin {
+    display: flex;
+    align-items: center;
 }
 .making-title {
-margin-left: 150px;
 color: rgb(113, 27, 12);
 text-align: center;
 font-size: 40px;
 text-decoration: underline;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 .making-img {
     border-radius: 10px;
+    padding-bottom: 30px;
 }
 .making-text {
     padding-right: 20px;
@@ -163,7 +187,7 @@ text-decoration: underline;
 }
 .dough-textmfp {
     margin-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .dough-listmfp {
@@ -210,9 +234,6 @@ background-color: rgb(255, 179, 0);
 .filling-textfmfp {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.hero-textmfp {
-    padding-top: 15px;
-    padding-bottom: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+.filling-mfp {
+    padding-top: 50px;
 }
